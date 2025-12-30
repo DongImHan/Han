@@ -2,7 +2,7 @@
 
 void print_line(void);
 
-int main(void)3
+int main(void)
 {
     print_line();
     printf("학번    이름    전공    학점\n");
