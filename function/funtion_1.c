@@ -1,23 +1,25 @@
 #include <stdio.h>
 
-int sum(int x, int y);
+int avg(int x, int y);
 
 int main(void)
 {
-    int a = 10, b = 20;
+    int a , b;
     int result;
 
-    result = sum(a, b);
+    printf("두 수를 입력하십시오 : ");
+    scanf("%d %d", &a, &b);
+    result = avg(a, b);
     printf("result : %d\n", result);
 
     return 0;
 }
 
-int sum(int x, int y)
+int avg(int x, int y)
 {
     int temp;
 
-    temp = x + y;
+    temp = (x + y)/2;
 
     return temp;
 }
