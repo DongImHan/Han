@@ -18,7 +18,7 @@ int main(void) {
     // 1부터 9까지 배열을 탐색하면서 최소값을 찾음
     for (i = 1; i < 10; i++) {  // 10개만 탐색 (실제는 360개)
         if (dist[i] < min_value) {  // 현재 거리 값이 최소 값보다 작은 경우
-            min_value = dist[i];  // 최소 거리 갱신
+            min_value = dist[i];  // 최소 거리 갱신x
             min_index = i;  // 해당 인덱스를 최소 거리의 각도로 저장
         }
     }
